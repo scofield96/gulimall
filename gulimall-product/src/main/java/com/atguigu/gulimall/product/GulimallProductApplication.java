@@ -88,7 +88,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  *          spring-boot-starter-cache、spring-boot-starter-data-redis
  *      2）、写配置
  *          （1）、自动配置了哪些
- *              CacheAuroConfiguration会导入 RedisCacheConfiguration；
+ *              CacheAutoConfiguration会导入 RedisCacheConfiguration；
  *              自动配好了缓存管理器RedisCacheManager
  *          （2）、配置使用redis作为缓存
  *              spring.cache.type=redis
